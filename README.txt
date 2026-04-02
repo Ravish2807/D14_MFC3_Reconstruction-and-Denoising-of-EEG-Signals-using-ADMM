@@ -56,6 +56,7 @@ frequency-domain plot PNGs for original, noisy, denoised signals is stored in   
 per-subject RMSE values for the Reconstruction and Denoising is stored in         "results/results_summary.csv"
 group/task wise aggregate RMSE stats in scientific notation is stored in          "results/summary_stats.csv"
 bar plot comparisons between groups/tasks over the mean for both case is in       "results/comparison_plot.png"
+Initial Journal Paper Draft for the Project is named as                           "D14_MFC3_Paper.pdf"
 
 Tree represenation of the Project ,
 
@@ -63,6 +64,7 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
 ├── Batch_EEG_Processing.ipynb
 ├── Reconstruction&Denoising_ADMM.ipynb
 ├── Reconstruction&Denoising_ADMM.mlx
+├── D14_MFC3_Paper.pdf
 ├── Reconstruction&Denoising_ADMM.pdf
 ├── Final_Review.pptx
 ├── ReadMe.txt
