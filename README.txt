@@ -57,7 +57,7 @@ per-subject RMSE values for the Reconstruction and Denoising is stored in       
 group/task wise aggregate RMSE stats in scientific notation is stored in          "results/summary_stats.csv"
 bar plot comparisons between groups/tasks over the mean for both case is in       "results/comparison_plot.png"
 
-Tree represenation of the Project file,
+Tree represenation of the Project ,
 
 D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
 ├── Batch_EEG_Processing.ipynb
