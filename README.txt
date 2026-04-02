@@ -37,17 +37,8 @@ Batch processing Python notebook for full dataset automation is named as "Batch_
 - Runs each file through ADMM reconstruction, noise injection, ADMM denoising, and frequency spectrum analysis
 - Saves per-subject output plots in organized folders
 
-Project root path:
-- c:\AIE Files\Projects\S3\D_14
-
-Auto-generated results folder hierarchy (under project root):
-- results\ : base results folder
-- results\Reconstruction\ : original vs reconstructed time-domain plot PNGs
-- results\Denoised\ : original vs denoised time-domain plot PNGs
-- results\Frequency\ : frequency-domain plot PNGs for original, noisy, denoised signals
-- results\results_summary.csv : per-subject RMSE values
-- results\summary_stats.csv : group/task aggregate RMSE stats in scientific notation
-- results\comparison_plot.png : bar plot comparisons between groups/tasks
+Auto-generated results folder hierarchy under project root (D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM):
+- "results/" : base results folder.
 
 File Present and their use case in the Project is described as , 
 
@@ -59,6 +50,49 @@ The 23 channel systems of the EEG signal is described in the image named as     
 The EEG signal and the location of the channel is described in the image named as "eeg-signal1.jpg"
 Soft-Thresholding function related to the ADMM is described in the image named as "soft.png"  
 Reconstruction and Denoising for all the subjects has computed and named as       "Batch_EEG_Processing.ipynb"
+original vs reconstructed time-domain plot PNGs is stored in                      "results/Reconstruction/"
+original vs denoised time-domain plot PNGs is stored in                           "results/Denoised/"
+frequency-domain plot PNGs for original, noisy, denoised signals is stored in     "results/Frequency/"
+per-subject RMSE values for the Reconstruction and Denoising is stored in         "results/results_summary.csv"
+group/task wise aggregate RMSE stats in scientific notation is stored in          "results/summary_stats.csv"
+bar plot comparisons between groups/tasks over the mean for both case is in       "results/comparison_plot.png"
+
+Tree represenation of the Project file,
+
+D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
+├── Batch_EEG_Processing.ipynb
+├── Reconstruction&Denoising_ADMM.ipynb
+├── Reconstruction&Denoising_ADMM.mlx
+├── Reconstruction&Denoising_ADMM.pdf
+├── Final_Review.pptx
+├── ReadMe.txt
+├── channel.png
+├── eeg-signal1.jpg
+├── soft.png
+├── eeg-during-mental-arithmetic-tasks-1.0.0/  (dataset)
+│   ├── subject-info.csv
+│   ├── Subject01_1.edf
+│   ├── Subject01_2.edf
+│   ├── ...
+│   └── Subject36_2.edf
+└── results/
+    ├── results_summary.csv
+    ├── summary_stats.csv
+    ├── comparison_plot.png
+    ├── Reconstruction/
+    │   ├── Subject01_1_reconstruction.png
+    │   ├── Subject01_2_reconstruction.png
+    │   └── ...
+    ├── Denoised/
+    │   ├── Subject01_1_denoising.png
+    │   ├── Subject01_2_denoising.png
+    │   └── ...
+    └── Frequency/
+        ├── Subject01_1_freq_original.png
+        ├── Subject01_1_freq_noised.png
+        ├── Subject01_1_freq_denoised.png
+        ├── Subject01_2_freq_original.png
+        └── ...
 
 
  
