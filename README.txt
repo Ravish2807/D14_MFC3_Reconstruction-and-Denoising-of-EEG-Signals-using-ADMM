@@ -1,4 +1,4 @@
-                                  Mathematics for Computing 3 , Project Folder ReadMe File
+                                  Mathematics for Computing 3 , Description of Project Files
 
 
 Presented by 
