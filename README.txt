@@ -1,14 +1,14 @@
                                   Mathematics for Computing 3 , Project Folder ReadMe File
 
 
-Presented by 
-Group-14 ,AIE-D
+                                                                                                                                                 Presented by 
+                                                                                                                                              Group-14 ,AIE-D
 
-Team members:
-Ravishanmugam K       -- CB.SC.U4AIE24347 ​
-Sharvesh Sivaganam    -- CB.SC.U4AIE24355​
-Sri Harini MP         -- CB.SC.U4AIE24358​
-Vignes VM             -- CB.SC.U4AIE24359
+                                                                                                                  Team members:
+                                                                                                                     Ravishanmugam K       - CB.SC.U4AIE24347 ​
+                                                                                                                     Sharvesh Sivaganam    - CB.SC.U4AIE24355​
+                                                                                                                     Sri Harini MP         - CB.SC.U4AIE24358​
+                                                                                                                     Vignes VM             - CB.SC.U4AIE24359
 
 
 
