@@ -1,14 +1,14 @@
-                                                Mathematics for Computing 3 Project Files Description 
+                                  Mathematics for Computing 3 , Project Folder ReadMe File
 
 
 Presented by 
-              Group-14 ,AIE-D
+Group-14 ,AIE-D
 
 Team members:
-Ravishanmugam K       - CB.SC.U4AIE24347 ​
-Sharvesh Sivaganam    - CB.SC.U4AIE24355​
-Sri Harini MP         - CB.SC.U4AIE24358​
-Vignes VM             - CB.SC.U4AIE24359
+Ravishanmugam K       -- CB.SC.U4AIE24347 ​
+Sharvesh Sivaganam    -- CB.SC.U4AIE24355​
+Sri Harini MP         -- CB.SC.U4AIE24358​
+Vignes VM             -- CB.SC.U4AIE24359
 
 
 
@@ -31,6 +31,24 @@ The images "channel1.jpg" shows the placement of the 23 channels in the human br
 
 The pdf file named "Reconstruction_and_Denoising_of_EEG_Signal_Using_Alternating_Direction_Method_of_Multipliers.pdf", is the base paper for this project.
 
+Batch processing Python notebook for full dataset automation is named as "Batch_EEG_Processing.ipynb" and performs the following:
+- Reads all EDF files under the dataset path (before and during task: subject##_1.edf and subject##_2.edf)
+- Loads subject metadata from "subject-info.csv" and maps group labels (G / B)
+- Runs each file through ADMM reconstruction, noise injection, ADMM denoising, and frequency spectrum analysis
+- Saves per-subject output plots in organized folders
+
+Project root path:
+- c:\AIE Files\Projects\S3\D_14
+
+Auto-generated results folder hierarchy (under project root):
+- results\ : base results folder
+- results\Reconstruction\ : original vs reconstructed time-domain plot PNGs
+- results\Denoised\ : original vs denoised time-domain plot PNGs
+- results\Frequency\ : frequency-domain plot PNGs for original, noisy, denoised signals
+- results\results_summary.csv : per-subject RMSE values
+- results\summary_stats.csv : group/task aggregate RMSE stats in scientific notation
+- results\comparison_plot.png : bar plot comparisons between groups/tasks
+
 File Present and their use case in the Project is described as , 
 
 Juypter lab documentation file is named as                                        "Reconstruction&Denoising_ADMM.ipynb"
@@ -40,6 +58,13 @@ The pdf version of the matlab ddocumentation is named as                        
 The 23 channel systems of the EEG signal is described in the image named as       "channel.png"
 The EEG signal and the location of the channel is described in the image named as "eeg-signal1.jpg"
 Soft-Thresholding function related to the ADMM is described in the image named as "soft.png"  
+Reconstruction and Denoising for all the subjects has computed and named as       "Batch_EEG_Processing.ipynb"
+
+
+ 
+
+
+
 
 
 Thank You
