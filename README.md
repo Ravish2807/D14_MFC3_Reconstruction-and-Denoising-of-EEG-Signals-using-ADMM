@@ -21,10 +21,10 @@
 ### 👥 Team Members
 | Name | Roll Number |
 | :--- | :--- |
-| <img src="https://img.shields.io/badge/Ravishanmugam%20K-CB.SC.U4AIE24347-blue?style=flat-square" /> | `Lead Researcher` |
-| <img src="https://img.shields.io/badge/Sharvesh%20Sivaganam-CB.SC.U4AIE24355-blue?style=flat-square" /> | `Collaborator` |
-| <img src="https://img.shields.io/badge/Sri%20Harini%20MP-CB.SC.U4AIE24358-blue?style=flat-square" /> | `Collaborator` |
-| <img src="https://img.shields.io/badge/Vignes%20VM-CB.SC.U4AIE24359-blue?style=flat-square" /> | `Collaborator` |
+| <img src="https://img.shields.io/badge/Ravishanmugam%20K-blue?style=flat-square" /> | `CB.SC.U4AIE24347` |
+| <img src="https://img.shields.io/badge/Sharvesh%20Sivaganam-blue?style=flat-square" /> | `CB.SC.U4AIE24355` |
+| <img src="https://img.shields.io/badge/Sri%20Harini%20MP-blue?style=flat-square" /> | `CB.SC.U4AIE24358` |
+| <img src="https://img.shields.io/badge/Vignes%20VM-blue?style=flat-square" /> | `CB.SC.U4AIE24359` |
 
 ---
 
