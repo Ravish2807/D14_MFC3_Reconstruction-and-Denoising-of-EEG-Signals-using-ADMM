@@ -101,6 +101,7 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
 ├── channel.png
 ├── eeg-signal1.jpg
 ├── soft.png
+├── requirements.txt
 ├── eeg-during-mental-arithmetic-tasks-1.0.0/  (Dataset)
 │   ├── subject-info.csv
 │   ├── Subject01_1.edf
