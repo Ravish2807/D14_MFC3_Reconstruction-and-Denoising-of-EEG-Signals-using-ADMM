@@ -1,6 +1,6 @@
 <p align="center">
   <img src="logo.svg" alt="Project Logo" width="300">
-</p>
+</p>  
 
 # Mathematics for Computing 3
 ## Reconstruction and Denoising of the EEG signals using ADMM
