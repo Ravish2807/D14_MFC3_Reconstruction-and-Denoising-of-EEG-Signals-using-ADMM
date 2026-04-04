@@ -22,7 +22,7 @@ As the dataset size > 10MB , further details about that is mentioned below.
 
 As the data used in the project is an signal , to view the signal , an external software is used to view the signal of an subject with the 23 channel reading.The software preferred by the Data source is "Polyman" for reading the eeg signals , which is available for windows , Linux and Mac. There are totally 36 subjects means 36 humans were performed the eeg signal test for some 2.5 minutes with two cases , case-1:before arithemetic task and case-2: after math task to monitor more in depth about the human brain activity during the stress in work. The test performed before math task is named as "subjectxx_0.edf" , where after the math task performed eeg is named as "subjectxx_1.edf".
 
-Further details about the data in in the link  "https://physionet.org/content/eegmat/1.0.0/".
+Further details about the data is in the link  "https://physionet.org/content/eegmat/1.0.0/".
 
 The images "channel1.jpg" shows the placement of the 23 channels in the human brain , which is used in the juypter documentation.
 
@@ -42,21 +42,29 @@ Auto-generated results folder hierarchy under project root (D14_MFC3_Reconstruct
 
 File Present and their use case in the Project is described as , 
 
-Juypter lab documentation file is named as                                        "Reconstruction&Denoising_ADMM.ipynb"
-MATLAB livescript documentation file is named as                                  "Reconstruction&Denoising_ADMM.mlx"
-Presentation for the update of the project is named as                            "Final_Review.pptx".
-The pdf version of the matlab ddocumentation is named as                          "Reconstruction&Denoising_ADMM.pdf"
-The 23 channel systems of the EEG signal is described in the image named as       "channel.png"
-The EEG signal and the location of the channel is described in the image named as "eeg-signal1.jpg"
-Soft-Thresholding function related to the ADMM is described in the image named as "soft.png"  
-Reconstruction and Denoising for all the subjects has computed and named as       "Batch_EEG_Processing.ipynb"
+Journal Paper files in Latex is stored in                                         "Jounral_Paper_D14_MFC3/"
+Draft Paper for the Obtained Result is in                                         "Journal_Paper_D14_MFC3/D14_MFC3_Paper.pdf"
+SyncTeX File for main Latex File , pdf to Tex Locating operation is in            "Journal_Paper_D14_MFC3/D14_MFC3_Paper.synctex.gz"
+Main LaTex File for the Paper                                                     "Journal_Paper_D14_MFC3/D14_MFC3_Paper.tex"
+Images for Results is selected few from results/ and named as                     "Journal_Paper_D14_MFC3/fig$_cell$$.png"
+Results interms of Time, Frequency Domain Plot is stored in                       "results/"
 original vs reconstructed time-domain plot PNGs is stored in                      "results/Reconstruction/"
 original vs denoised time-domain plot PNGs is stored in                           "results/Denoised/"
 frequency-domain plot PNGs for original, noisy, denoised signals is stored in     "results/Frequency/"
 per-subject RMSE values for the Reconstruction and Denoising is stored in         "results/results_summary.csv"
 group/task wise aggregate RMSE stats in scientific notation is stored in          "results/summary_stats.csv"
 bar plot comparisons between groups/tasks over the mean for both case is in       "results/comparison_plot.png"
+Reconstruction and Denoising for all the subjects has computed and named as       "Batch_EEG_Processing.ipynb"
 Initial Journal Paper Draft for the Project is named as                           "D14_MFC3_Paper.pdf"
+Presentation for the update of the project is named as                            "Final_Review.pptx"
+Juypter lab documentation file is named as                                        "Reconstruction&Denoising_ADMM.ipynb"
+MATLAB livescript documentation file is named as                                  "Reconstruction&Denoising_ADMM.mlx"
+The pdf version of the matlab ddocumentation is named as                          "Reconstruction&Denoising_ADMM.pdf"
+Base Paper of Our Project is named as                                             "Reconstruction_and_Denoising_ADMM_B_Paper"
+The 23 channel systems of the EEG signal is described in the image named as       "channel.png"
+The EEG signal and the location of the channel is described in the image named as "eeg-signal1.jpg"
+Soft-Thresholding function related to the ADMM is described in the image named as "soft.png"  
+
 
 Tree represenation of the Project ,
 
@@ -71,13 +79,23 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
 ├── channel.png
 ├── eeg-signal1.jpg
 ├── soft.png
-├── eeg-during-mental-arithmetic-tasks-1.0.0/  (dataset)
+├── eeg-during-mental-arithmetic-tasks-1.0.0/  (Dataset)
 │   ├── subject-info.csv
 │   ├── Subject01_1.edf
 │   ├── Subject01_2.edf
 │   ├── ...
 │   └── Subject36_2.edf
-└── results/
+├── Journal_Paper_D14_MFC3/                    (Draft Paper) 
+|   ├──D14_MFC3_Paper.pdf
+|   ├──D14_MFC3_Paper.synctex.gz
+|   ├──D14_MFC3_Paper.tex
+|   ├──fig1_cell12.png
+|   ├──fig2_cell28.png
+|   ├──fig3_cell30.png
+|   ├──fig4_cell39.png
+|   ├──fig5_cell40.png
+|   ├──fig6_cell45.png
+└── results/                                        
     ├── results_summary.csv
     ├── summary_stats.csv
     ├── comparison_plot.png
@@ -95,11 +113,6 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
         ├── Subject01_1_freq_denoised.png
         ├── Subject01_2_freq_original.png
         └── ...
-
-
- 
-
-
 
 
 
