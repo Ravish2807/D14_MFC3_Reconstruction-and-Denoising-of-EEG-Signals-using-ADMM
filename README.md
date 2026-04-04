@@ -8,14 +8,16 @@
 
 ## $$\Large \color{#D9730D}{\mathbf{Reconstruction\ and\ Denoising\ of\ the\ EEG\ signals\ using\ ADMM}}$$
 
-![Group](https://img.shields.io/badge/Group-14-blue?style=for-the-badge)
-![Batch](https://img.shields.io/badge/Batch-AIE--D-green?style=for-the-badge)
 ![Tech](https://img.shields.io/badge/Tools-Python%20|%20MATLAB%20|%20LaTeX-blueviolet?style=for-the-badge)
 
 </div>
 
----
+<p align="center">
+  Presented by: <b>Group-14, AIE-D</b>
+</p>
 
+---
+  
 ### 👥 Team Members
 | Name | Roll Number |
 | :--- | :--- |
