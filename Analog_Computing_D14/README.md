@@ -37,6 +37,7 @@
 - [Hardware Implementation](#-hardware-implementation)
 - [Testing & Setup](#-testing--setup)
 - [Results](#-results)
+- [Drive Files](#-drive-files)
 - [Conclusion](#-conclusion)
 - [References](#-references)
 
@@ -51,7 +52,7 @@
 
 This project focuses on implementing **Analog Computing** to solve a **second-order Ordinary Differential Equation (ODE)** representing **Simple Harmonic Motion (SHM)**.
 
-Unlike digital computation, this system uses **continuous electrical signals** to model and solve equations in real-time using Op-Amps and integrator circuits.
+Unlike digital systems, this approach uses **continuous electrical signals** and Op-Amp circuits to compute results in real time.
 
 ---
 
@@ -68,13 +69,37 @@ Unlike digital computation, this system uses **continuous electrical signals** t
 
 ### 🔹 SHM Equation
 
-\[
-\frac{d^2x}{dt^2} + \omega^2 x = 0
-\]
+`d²x/dt² + ω²x = 0`
 
-This equation is implemented using:
-- Integrators (to compute derivatives)
-- Feedback loops (to maintain oscillation)
+Where:
+- x → displacement  
+- ω → angular frequency  
+
+---
+
+### 🔹 Conversion to First-Order System
+
+`dx/dt = v`  
+`dv/dt = -ω²x`
+
+---
+
+### 🔹 Inverting Amplifier
+
+`Av = -Rf / Rin`  
+`Vout = -(Rf / Rin) × Vin`
+
+---
+
+### 🔹 Integrator Circuit
+
+`Vout = -(1/RC) ∫ Vin dt`
+
+---
+
+### 🔹 Oscillation Condition
+
+`ω = 1 / √(RC)`
 
 ---
 
@@ -92,66 +117,50 @@ This equation is implemented using:
 
 ## 🔌 Circuit Design
 
-
-::contentReference[oaicite:0]{index=0}
-
-
-- Uses **3 Op-Amps**
-- First two → Integrators  
-- Third → Feedback control  
-- Closed loop generates oscillation  
+![Circuit Setup](image1.png)
 
 ---
 
 ## 🛠️ Hardware Implementation
 
-
-::contentReference[oaicite:1]{index=1}
-
-
-- Built using breadboard + M2K  
-- Proper resistor-capacitor placement  
-- Loop connections established  
+![Components Used](image2.png)  
+![Hardware Assembly](image3.png)
 
 ---
 
 ## ⚙️ Testing & Setup
 
-
-::contentReference[oaicite:2]{index=2}
-
-
-### Steps:
-1. Provide ±5V supply  
-2. Apply initial voltages:
-   - +3V (Op-Amp 1)
-   - +4V (Op-Amp 2)
-3. Observe waveform using oscilloscope  
-4. Remove initial input after stabilization  
+![Testing Setup](image4.png)  
+![Initial Setup](image5.png)
 
 ---
 
 ## 📊 Results
 
-
-::contentReference[oaicite:3]{index=3}
-
+![Result Waveform](image6.png)
 
 - Channel 1 → Sinusoidal waveform  
-- Channel 2 → Phase-shifted signal  
+- Channel 2 → Phase-shifted waveform  
 - Confirms SHM behavior  
+
+---
+
+## 🔗 Drive Files
+
+📂 **Analog Computing Testing Files:**  
+👉 https://drive.google.com/file/d/1TJnMbFOhWlprs_c0pAqsaYrTg5DkpIr1/view?usp=sharing  
 
 ---
 
 ## 🚀 Conclusion
 
-This project successfully demonstrates that:
+This project demonstrates that:
 
 - Analog circuits can **solve differential equations directly**
-- SHM can be modeled using **Op-Amps and integrators**
-- Analog computing enables **real-time, continuous computation**
+- SHM can be implemented using **Op-Amps and integrators**
+- Analog computing enables **real-time continuous computation**
 
-It highlights the importance of analog systems in:
+This highlights its importance in:
 - Signal processing  
 - Control systems  
 - Hardware-based computation  
