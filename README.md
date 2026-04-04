@@ -34,6 +34,47 @@
 > [!NOTE]
 > **Base Paper:** *"Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers"* (included as `Reconstruction_and_Denoising_of_EEG_Signal_Using_Alternating_Direction_Method_of_Multipliers.pdf`)
 
+---
+
+## 📌 About the Project
+
+This project focuses on the **reconstruction and denoising of Electroencephalogram (EEG) signals** using the **Alternating Direction Method of Multipliers (ADMM)**.
+
+EEG signals are highly sensitive and often corrupted by noise such as eye blinks, muscle activity, and external interference. To address this, the project applies **ADMM-based optimization**, which efficiently solves complex problems by breaking them into smaller subproblems.
+
+- EEG reconstruction is performed using an **ℓ₁-regularized framework** to promote sparsity.
+- Denoising is achieved using a **Lasso-based ADMM approach** under:
+  - Gaussian noise  
+  - Laplacian noise  
+- **Independent Component Analysis (ICA)** is used to remove artifacts like eye and muscle noise.
+- The dataset is taken from **PhysioNet**, consisting of 36 subjects performing mental arithmetic tasks.
+
+The project evaluates performance using **RMSE**, along with time-domain and frequency-domain analysis, demonstrating effective reconstruction and noise removal.
+
+---
+
+## 📚 References
+
+1. *Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers*
+
+2. PhysioNet EEG Dataset:  
+   https://physionet.org/content/eegmat/1.0.0/
+
+3. Key Concepts Used:
+   - Alternating Direction Method of Multipliers (ADMM)  
+   - Lasso Regression  
+   - Independent Component Analysis (ICA)  
+   - ℓ₁-norm Regularization  
+
+4. EEG Standard:
+   - International **10–20 electrode placement system**
+
+5. Noise Models:
+   - Gaussian Noise  
+   - Laplacian Noise  
+
+---
+
 ### 📊 Dataset Details
 * **Data Source:** [PhysioNet EEG Arithmetic Dataset](https://physionet.org/content/eegmat/1.0.0/)
 * **Description:** Signal readings from 36 subjects covering **Case-1** (Before math task) and **Case-2** (After math task).
