@@ -53,35 +53,6 @@ The project evaluates performance using **RMSE**, along with time-domain and fre
 
 ---
 
-## 📚 References
-
-1. *Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers*, Base Paper
-
-2. Boyd, S., Parikh, N., Chu, E., Peleato, B., & Eckstein, J. (2011).  
-   *Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers*.  
-
-3. Donoho, D. L. (2006).  
-   *Compressed Sensing*. IEEE Transactions on Information Theory.  
-
-4. Candès, E. J., Romberg, J., & Tao, T. (2006).  
-   *Robust Signal Recovery from Incomplete Data*.  
-
-5. Tibshirani, R. (1996).  
-   *Regression Shrinkage and Selection via the Lasso*.  
-
-6. Hyvärinen, A., & Oja, E. (2000).  
-   *Independent Component Analysis: Algorithms and Applications*.  
-
-7. Rudin, L. I., Osher, S., & Fatemi, E. (1992).  
-   *Nonlinear Total Variation Based Noise Removal Algorithms*.  
-
-8. Goldberger, A. L., et al. (2000).  
-   *PhysioBank, PhysioToolkit, and PhysioNet*.  
-
-9. PhysioNet Dataset:  
-   https://physionet.org/content/eegmat/1.0.0/
----
-
 ### 📊 Dataset Details
 * **Data Source:** [PhysioNet EEG Arithmetic Dataset](https://physionet.org/content/eegmat/1.0.0/)
 * **Description:** Signal readings from 36 subjects covering **Case-1** (Before math task) and **Case-2** (After math task).
@@ -164,6 +135,33 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
         ├── Subject01_1_freq_denoised.png
         ├── Subject01_2_freq_original.png
         └── ...
+```
+---
+## 📚 References
 
+1. *Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers*, Base Paper
 
-Thank You
+2. Boyd, S., Parikh, N., Chu, E., Peleato, B., & Eckstein, J. (2011).  
+   *Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers*.  
+
+3. Donoho, D. L. (2006).  
+   *Compressed Sensing*. IEEE Transactions on Information Theory.  
+
+4. Candès, E. J., Romberg, J., & Tao, T. (2006).  
+   *Robust Signal Recovery from Incomplete Data*.  
+
+5. Tibshirani, R. (1996).  
+   *Regression Shrinkage and Selection via the Lasso*.  
+
+6. Hyvärinen, A., & Oja, E. (2000).  
+   *Independent Component Analysis: Algorithms and Applications*.  
+
+7. Rudin, L. I., Osher, S., & Fatemi, E. (1992).  
+   *Nonlinear Total Variation Based Noise Removal Algorithms*.  
+
+8. Goldberger, A. L., et al. (2000).  
+   *PhysioBank, PhysioToolkit, and PhysioNet*.  
+
+9. PhysioNet Dataset:  
+   https://physionet.org/content/eegmat/1.0.0/
+---
