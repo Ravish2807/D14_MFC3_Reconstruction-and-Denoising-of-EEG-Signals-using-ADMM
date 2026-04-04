@@ -1,11 +1,14 @@
 <p align="center">
   <img src="logo.svg" alt="Project Logo" width="300">
-</p>  
+</p>
 
-# Mathematics for Computing 3
-## Reconstruction and Denoising of the EEG signals using ADMM
+<h1 align="center">22MAT220 Mathematics for Computing 3</h1>
 
-**Presented by:** Group-14, AIE-D
+<h2 align="center"><b>Reconstruction and Denoising of the EEG signals using ADMM</b></h2>
+
+<p align="center">
+  Presented by: <b>Group-14, AIE-D</b>
+</p>
 
 ### 👥 Team Members
 * **Ravishanmugam K** — CB.SC.U4AIE24347
