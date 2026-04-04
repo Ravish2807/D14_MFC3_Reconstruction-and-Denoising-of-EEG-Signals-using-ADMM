@@ -117,27 +117,25 @@ Where:
 
 ## 🔌 Circuit Design
 
-![Circuit Setup](image1.png)
+![Circuit Setup](Main_Circuit_Diagram.png)
 
 ---
 
 ## 🛠️ Hardware Implementation
 
-![Components Used](image2.png)  
-![Hardware Assembly](image3.png)
+![Hardware Assembly](Hardware_Assembly.png)
 
 ---
 
 ## ⚙️ Testing & Setup
 
-![Testing Setup](image4.png)  
-![Initial Setup](image5.png)
+![Testing Setup](testing_1.png)  
 
 ---
 
 ## 📊 Results
 
-![Result Waveform](image6.png)
+![Result Waveform](Results_1.png)
 
 - Channel 1 → Sinusoidal waveform  
 - Channel 2 → Phase-shifted waveform  
