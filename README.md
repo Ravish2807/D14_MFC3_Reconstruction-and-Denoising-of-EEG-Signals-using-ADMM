@@ -123,19 +123,40 @@ D14_MFC3_Reconstruction-and-Denoising-of-EEG-Signals-using-ADMM/
 ├── channel.png
 ├── eeg-signal1.jpg
 ├── soft.png
-├── eeg-during-mental-arithmetic-tasks-1.0.0/
+├── eeg-during-mental-arithmetic-tasks-1.0.0/  (Dataset)
 │   ├── subject-info.csv
 │   ├── Subject01_1.edf
 │   ├── Subject01_2.edf
+│   ├── ...
 │   └── Subject36_2.edf
-├── Journal_Paper_D14_MFC3/
-│   ├── D14_MFC3_Paper.pdf
-│   ├── D14_MFC3_Paper.tex
-│   └── fig1_cell12.png
-└── results/
+├── Journal_Paper_D14_MFC3/                    (Draft Paper) 
+|   ├──D14_MFC3_Paper.pdf
+|   ├──D14_MFC3_Paper.synctex.gz
+|   ├──D14_MFC3_Paper.tex
+|   ├──fig1_cell12.png
+|   ├──fig2_cell28.png
+|   ├──fig3_cell30.png
+|   ├──fig4_cell39.png
+|   ├──fig5_cell40.png
+|   ├──fig6_cell45.png
+└── results/                                        
     ├── results_summary.csv
     ├── summary_stats.csv
     ├── comparison_plot.png
     ├── Reconstruction/
+    │   ├── Subject01_1_reconstruction.png
+    │   ├── Subject01_2_reconstruction.png
+    │   └── ...
     ├── Denoised/
+    │   ├── Subject01_1_denoising.png
+    │   ├── Subject01_2_denoising.png
+    │   └── ...
     └── Frequency/
+        ├── Subject01_1_freq_original.png
+        ├── Subject01_1_freq_noised.png
+        ├── Subject01_1_freq_denoised.png
+        ├── Subject01_2_freq_original.png
+        └── ...
+
+
+Thank You
