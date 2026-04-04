@@ -55,24 +55,31 @@ The project evaluates performance using **RMSE**, along with time-domain and fre
 
 ## 📚 References
 
-1. *Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers*
+1. *Reconstruction and Denoising of EEG Signal Using Alternating Direction Method of Multipliers*, Base Paper
 
-2. PhysioNet EEG Dataset:  
+2. Boyd, S., Parikh, N., Chu, E., Peleato, B., & Eckstein, J. (2011).  
+   *Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers*.  
+
+3. Donoho, D. L. (2006).  
+   *Compressed Sensing*. IEEE Transactions on Information Theory.  
+
+4. Candès, E. J., Romberg, J., & Tao, T. (2006).  
+   *Robust Signal Recovery from Incomplete Data*.  
+
+5. Tibshirani, R. (1996).  
+   *Regression Shrinkage and Selection via the Lasso*.  
+
+6. Hyvärinen, A., & Oja, E. (2000).  
+   *Independent Component Analysis: Algorithms and Applications*.  
+
+7. Rudin, L. I., Osher, S., & Fatemi, E. (1992).  
+   *Nonlinear Total Variation Based Noise Removal Algorithms*.  
+
+8. Goldberger, A. L., et al. (2000).  
+   *PhysioBank, PhysioToolkit, and PhysioNet*.  
+
+9. PhysioNet Dataset:  
    https://physionet.org/content/eegmat/1.0.0/
-
-3. Key Concepts Used:
-   - Alternating Direction Method of Multipliers (ADMM)  
-   - Lasso Regression  
-   - Independent Component Analysis (ICA)  
-   - ℓ₁-norm Regularization  
-
-4. EEG Standard:
-   - International **10–20 electrode placement system**
-
-5. Noise Models:
-   - Gaussian Noise  
-   - Laplacian Noise  
-
 ---
 
 ### 📊 Dataset Details
