@@ -135,7 +135,7 @@ Where:
 
 ## 📊 Results
 
-![Result Waveform](Results_1.png)
+![Result Waveform](Result_1.png)
 
 - Channel 1 → Sinusoidal waveform  
 - Channel 2 → Phase-shifted waveform  
